@@ -17,6 +17,10 @@ body{
 #name:focus{
   outline:none;
 }
+.btn_signup{
+	background-color:#ff0000 !important;
+	border-color:#ff0000 !important;
+}
 #dropdown-basic{
 	background:none !important;
 	border:none !important;
