@@ -81,7 +81,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
         
         <Row className='d-flex justify-content-center align-items-center mt-0'>
         <Col className='col-md-12 d-flex justify-content-center align-items-center flex-column'>
-        <h2 className='b text-black text-center'>Order ID</h2>
+        <h2 className='b text-black text-center'>आर्डर आईडी</h2>
         <h5 className="b text-black text-center">{orderid}</h5>
         </Col>
         
@@ -110,8 +110,8 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
             <Row className='d-flex justify-content-center align-items-center mt-4'>
 
                 <Col className='col-md-12'>
-                <h3 className='b text-black text-center h3_send'>Please send <span style={{'color':`${lgShow566}`}}>{amount23}</span> {value3} </h3>
-                    <p className="b text-black text-center para2005">to the following address.....</p>
+                <h3 className='b text-black text-center h3_send'>कृपया <span style={{'color':`${lgShow566}`}}>{amount23}</span> {value3} भेजें  </h3>
+                    <p className="b text-black text-center para2005 fs-5">निम्नलिखित पते पर</p>
                 </Col>xz
 
             </Row>
@@ -145,7 +145,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
 
             <Row className='d-flex justify-content-center align-items-center'>
                 <Col className='col-md-12'>
-                <p className='b text-black text-center mt-2 mb-2'>Awaiting Payment....</p>
+                <p className='b text-black text-center mt-2 mb-2'>पेमेंट की प्रतीक्षा की जा रही है.....</p>
                 <fds-circular-progress indeterminate="true"></fds-circular-progress>
                 </Col>
             </Row>
@@ -154,7 +154,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
 
             <Row className='d-flex justify-content-center align-items-center' onLoad={final90}>
                 <Col className='col-md-12'>
-                <h3 className='b text-black text-center h3_rec'>Receiving Address ... </h3>
+                <h3 className='b text-black text-center h3_rec'>प्राप्त करने का पता...</h3>
                 <p className="b  text-black text-center para2006">{final56}</p>
                 </Col>
             </Row>
