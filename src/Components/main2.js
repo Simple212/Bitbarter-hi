@@ -111,7 +111,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
 
                 <Col className='col-md-12'>
                 <h3 className='b text-black text-center h3_send'>कृपया <span style={{'color':`${lgShow566}`}}>{amount23}</span> {value3} भेजें  </h3>
-                    <p className="b text-black text-center para2005 fs-5">निम्नलिखित पते पर</p>
+                    <p className="b text-black text-center para2005 fs-4">निम्नलिखित पते पर</p>
                 </Col>xz
 
             </Row>
@@ -145,7 +145,7 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
 
             <Row className='d-flex justify-content-center align-items-center'>
                 <Col className='col-md-12'>
-                <p className='b text-black text-center mt-2 mb-2'>पेमेंट की प्रतीक्षा की जा रही है.....</p>
+                <p className='b text-black text-center mt-2 mb-2 fs-5 tc'>पेमेंट की प्रतीक्षा की जा रही है.....</p>
                 <fds-circular-progress indeterminate="true"></fds-circular-progress>
                 </Col>
             </Row>

@@ -1280,7 +1280,7 @@ bnbvalidation = (event2)=>{
           {/* Footer begins */}
           <Row className='row1 d-flex justify-content-center align-items-center' style={{'color':`${this.state.text_color2}`,'background-color':`${this.state.bottom_color2}`}} >
           <Col className='col-md-12 d-flex justify-content-center align-items-center'>
-          <p className='b text-center tc mt-4'>bitBarter © 2023</p>
+          <p className='b text-center tc mt-4'>बिटबार्टर © २०२३</p>
           </Col>
           </Row>
           {/* Footer ends */}
