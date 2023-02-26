@@ -64,11 +64,11 @@ const Main2 =({value10,value5,value11,value6,value3,value1005,value1009,final56,
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto d-flex justify-content-center align-items-center">
-                        <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink'>Wallets <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png'  className='ms-2' width={'15px'}/>
-                        <span className="b span45 d-flex justify-content-center align-items-center">Working</span>
+                        <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink b text-black'>वालेट<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png'  className='ms-2' width={'15px'}/>
+                        <span className="b span45 d-flex justify-content-center align-items-center">कार्यरत</span>
                         </Nav.Link>
-                            <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink'>System Stauts <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png' className='ms-2' width={'15px'}/>
-                            <span className="b span45 d-flex justify-content-center align-items-center">Working</span></Nav.Link>
+                        <Nav.Link href="#home" className='d-flex justify-content-center align-items-center navlink b text-black'>तंत्र स्टेटस<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Icon_green_lamp_on.svg/512px-Icon_green_lamp_on.svg.png' className='ms-2' width={'15px'}/>
+                        <span className="b span45 d-flex justify-content-center align-items-center">कार्यरत</span></Nav.Link>
                         </Nav>
                         </Navbar.Collapse>
                     </Container>
